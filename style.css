@@ -342,7 +342,7 @@ header:hover::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-md) 0;
+  padding: var(--spacing-sm) 0;
 }
 
 .logo {
@@ -821,13 +821,11 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .skill-group-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: rgba(0, 212, 255, 0.3);
+  /* Hover effects removed */
 }
 
 .skill-group-card:hover::before {
-  opacity: 1;
+  /* Hover effects removed */
 }
 
 .skill-group-header {
@@ -892,11 +890,8 @@ nav ul li a.active { color: var(--text-0); }
   padding: var(--spacing-lg);
   border-radius: 12px;
   margin-bottom: var(--spacing-md);
-  border-left: 3px solid rgba(0, 212, 255, 0.5);
   transition: all var(--transition-base);
   border: var(--border-subtle);
-  border-left-width: 3px;
-  border-left-color: rgba(0, 212, 255, 0.5);
   position: relative;
   overflow: hidden;
 }
@@ -914,12 +909,11 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .experience-item:hover {
-  transform: translateX(4px);
-  box-shadow: var(--shadow-md);
+  /* Hover effects removed */
 }
 
 .experience-item:hover::before {
-  opacity: 1;
+  /* Hover effects removed */
 }
 
 .experience-item h4 {
@@ -1010,13 +1004,11 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .project-item:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-lg);
-  border-color: rgba(0, 212, 255, 0.3);
+  /* Hover effects removed */
 }
 
 .project-item:hover::before {
-  opacity: 1;
+  /* Hover effects removed */
 }
 
 .project-item:nth-child(even) {
@@ -1042,7 +1034,7 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .project-item:hover .project-image::after {
-  opacity: 1;
+  /* Hover effects removed */
 }
 
 .project-image img {
@@ -1053,7 +1045,7 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .project-item:hover .project-image img {
-  transform: scale(1.05);
+  /* Hover effects removed */
 }
 
 .project-info {
@@ -1093,9 +1085,7 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .project-tag:hover {
-  background: rgba(0, 212, 255, 0.15);
-  border-color: var(--accent-cyan);
-  transform: translateY(-2px);
+  /* Hover effects removed */
 }
 
 .project-links {
@@ -1168,13 +1158,11 @@ nav ul li a.active { color: var(--text-0); }
 }
 
 .contact-card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-md);
-  border-color: rgba(0, 212, 255, 0.3);
+  /* Hover effects removed */
 }
 
 .contact-card:hover::before {
-  opacity: 1;
+  /* Hover effects removed */
 }
 
 .contact-card-title {
